@@ -1,6 +1,3 @@
-# learn-js
-* 好吧，记住了，记得用ssh clone远程仓库
-
 # python
 * client.py server.py 简易web服务器
 # php
