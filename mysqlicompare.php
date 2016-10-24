@@ -8,8 +8,7 @@ $database   = '';
 /**
  * 期望得到额结果
  * array(
- *  1 =>
-int,
+ *  1 => int,
  *  2 => int,
  *  3 => int
  * )
