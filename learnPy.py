@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import time
 
 def str2int(s):
     def fn(x, y):
@@ -43,3 +44,5 @@ f1, f2, f3 = count()
 print f1()
 print f2()
 print f3()
+
+print time.time()
