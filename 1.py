@@ -53,6 +53,6 @@ class Sun(object):
 print Sun().__class__
 
 print int(time.time())
-#self指向类对象
+#self指向类对象o
 
 
