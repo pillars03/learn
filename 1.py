@@ -54,3 +54,5 @@ print Sun().__class__
 
 print int(time.time())
 #self指向类对象
+
+
