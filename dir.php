@@ -6,4 +6,4 @@ while (false !== ($file = readdir($handle))) {
         echo "$file\n";
     }
 }
- closedir($handle);
+closedir($handle);
