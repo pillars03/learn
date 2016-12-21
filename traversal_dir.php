@@ -1,4 +1,5 @@
 <?php
+//遍历目录下的所有子目录和文件
 function my_scandir($dir){
     $files=array();
     if(is_dir($dir)){
