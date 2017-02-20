@@ -73,3 +73,5 @@ MANIFEST
 node_modules/
 package.json
 
+upload/
+
