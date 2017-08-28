@@ -1,7 +1,7 @@
 var http = require('https');			// http 网路
 var cheerio = require('cheerio');	// html 解析
 var fs = require("fs");				// 流
-var queryHref = "https://www.zhihu.com/question/29279000"; 	// 设置被查询的目标网址
+var queryHref = "https://www.zhihu.com/question/20399991"; 	// 设置被查询的目标网址
 var urls = [];
 
 
@@ -29,6 +29,7 @@ function getPic(href, serach) {
 
 function downImg(imgurl) {
     // 做一步优化，如果存在文件，则不下载
+    console.log(imgurl);
     var index = imgurl.lastIndexOf("\/");
     var filename = "./upload/topic1/" + imgurl.substring(index + 1, imgurl.length);
     fs.exists(filename, function (b) {
